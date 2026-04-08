@@ -11,7 +11,7 @@
   },
   "keywords": ["INNBC", "INNBCV", "DeSci", "electron", "steam", "game"],
   "author": "Jonathan Fior",
-  "license": "UNLICENSED",
+  "license": "see license in LICENSE.md",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "steamworkswinx64-withlogs": "^0.0.3"
