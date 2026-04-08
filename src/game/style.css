@@ -1,0 +1,42 @@
+/* start change -- fix mouse input and improve image quality for canvas scaling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bangers";
+    src: url("assets/fonts/Bangers-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000; /* Black background for letterbox bars */
+}
+
+#canvas1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Preserve 16:9 aspect ratio with black bars */
+    background: #000000; /* Keep fallback background */
+    font-family: "Bangers", serif;
+}
+
+#layer1, #layer2, #layer3, #layer4, #lamp1, #lamp2, #lamp3, #lamp4, #lamp5, #lamp6, #lamp7, 
+#lamp8, #lamp9, #lamp10, #lamp11, #lamp12, #lamp13, #lamp14, #pipe1, #pipe2, #pipe3, #pipe4, 
+#pipe5, #pipe6, #pipe7, #pipe8, #pipe9, #pipe10, #pipe11, #pipe12, #pipe13, #pipe14, #pipe15, 
+#train, #mech_red, #mech_white, #mech_grey, #tank, #truck, #background_ship, #player, #playerPowerup, 
+#angler1, #angler2, #lucky, #gears, #hivewhale, #drone, #Explosion, #bulbwhale, 
+#moonfish, #shield, #stalker, #razorfin, #missile, #fireball, #fireball2, #menuBackground, 
+#menuBackgroundMultiplayer, #menuBackgroundOptions, #universeAlienInvasion, 
+#universeStarfighter, #universeLab, #universeScientist, #universeNews, #universeCredits {
+    display: none;
+}
+/* finish change */
