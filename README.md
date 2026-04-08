@@ -223,6 +223,7 @@ That means:
 - the source is **not** open source
 - copying, reuse, modification, redistribution, or commercial use is **not allowed** unless separately authorized
 - companies interested in using the engine should contact the author for a **commercial license agreement**
+- see license in LICENSE.md
 
 If you want to allow noncommercial tinkering, research, and hobby experimentation, you can instead use a noncommercial source-available license.
 
