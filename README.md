@@ -157,7 +157,6 @@ npm run make
 - Built with **Electron** and **Electron Forge**
 - Main Electron entry point: `src/index.js`
 - Uses a customized `steamworkswinx64-withlogs` module for Steam integration
-- `package.json` is currently marked as `UNLICENSED`, while the repository itself is distributed under the custom source-available commercial terms described in `LICENSE.md`
 - Steam functionality may require the correct native module setup and Steam runtime environment depending on the target system
 
 ---
