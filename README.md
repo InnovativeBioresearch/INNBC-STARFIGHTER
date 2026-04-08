@@ -49,7 +49,7 @@ That design is what makes JavaScript viable here for fast arcade gameplay.
 
 ---
 
-### 2. Multiplayer built for arcade shooters, pixel precision gameplay 
+### 2. Multiplayer built for arcade shooters, pixel precision gameplay
 
 This engine does not stop at local play. It includes a fully integrated multiplayer stack using Steam matchmaking and Steam P2P networking.
 
@@ -112,12 +112,53 @@ This engine is especially valuable for developers who:
 
 - are highly productive in JavaScript
 - want to build desktop games without rewriting their gameplay systems in C++
-- want an inspectable codebase with extensive commenting they can learn from 
+- want an inspectable codebase with extensive commenting they can learn from
 - want Steam features and multiplayer already solved inside a real shipped project
 
 In other words, this is not just a game.
 
 It is a **working reference architecture for shipping action games in JavaScript**.
+
+---
+
+### 6. Setup and development
+
+To run the project locally, install the dependencies and start the Electron development build:
+
+```bash
+npm install
+npm start
+```
+
+This launches the game through **Electron Forge** using the entry point defined in `src/index.js`.
+
+## Build and Packaging
+
+To create a packaged version of the game:
+
+```bash
+npm run package
+```
+
+To generate distributable build artifacts:
+
+```bash
+npm run make
+```
+
+## Available Scripts
+
+- `npm start` — run the game locally in development mode
+- `npm run package` — package the Electron application
+- `npm run make` — generate distributable builds
+
+## Requirements and Notes
+
+- Built with **Electron** and **Electron Forge**
+- Main Electron entry point: `src/index.js`
+- Uses a customized `steamworkswinx64-withlogs` module for Steam integration
+- `package.json` is currently marked as `UNLICENSED`, while the repository itself is distributed under the custom source-available commercial terms described in `LICENSE.md`
+- Steam functionality may require the correct native module setup and Steam runtime environment depending on the target system
 
 ---
 
@@ -161,7 +202,7 @@ This can save a team a substantial amount of time compared with building the sam
 
 ---
 
-## Repository purpose
+## 7. Repository purpose
 
 This repository is public for **portfolio, technical review, and evaluation**.
 
