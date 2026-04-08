@@ -49,7 +49,7 @@ That design is what makes JavaScript viable here for fast arcade gameplay.
 
 ---
 
-### 2. Multiplayer built for arcade shooters, not just menus
+### 2. Multiplayer built for arcade shooters, pixel precision gameplay 
 
 This engine does not stop at local play. It includes a fully integrated multiplayer stack using Steam matchmaking and Steam P2P networking.
 
