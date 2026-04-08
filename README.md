@@ -112,7 +112,7 @@ This engine is especially valuable for developers who:
 
 - are highly productive in JavaScript
 - want to build desktop games without rewriting their gameplay systems in C++
-- want an inspectable codebase they can learn from
+- want an inspectable codebase with extensive commenting they can learn from 
 - want Steam features and multiplayer already solved inside a real shipped project
 
 In other words, this is not just a game.
