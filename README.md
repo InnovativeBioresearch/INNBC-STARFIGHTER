@@ -1,6 +1,6 @@
 # INNBC STARFIGHTER
 
-**A high-performance JavaScript game engine developed for INNBC STARFIGHTER — a shoot ’em up shipped on Steam, packaged with Electron, integrated with Steam APIs, and built for responsive arcade gameplay. Developed by Jonathan Fior, published by Innovative BioResearch**
+**A high-performance JavaScript game engine developed for INNBC STARFIGHTER — a shoot ’em up shipped on Steam, packaged with Electron, integrated with Steam APIs, and built for responsive arcade gameplay. Developed by Jonathan Fior, published by Innovative Bioresearch**
 
 This repository is public because I want studios, publishers, and technical teams to be able to inspect the architecture and code quality directly.
 
