@@ -1,0 +1,44 @@
+{
+  "name": "innbc-game",
+  "productName": "INNBC Starfighter",
+  "version": "1.0.0",
+  "description": "INNBC Starfighter Game for Steam",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": ["INNBC", "INNBCV", "DeSci", "electron", "steam", "game"],
+  "author": "Jonathan Fior",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "steamworkswinx64-withlogs": "^0.0.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "37.2.4"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "executableName": "INNBC Starfighter",
+        "icon": "src/game/assets/appicon"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "innbc_starfighter"
+          }
+        }
+      ]
+    }
+  }
+}
